@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvNameMain"
+        android:layout_width="140dp"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:text="Name"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvTypeMain"
+        android:layout_width="93dp"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:text="Type"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvDateTimeMain"
+        android:layout_width="97dp"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:text="Date/Time"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="388dp"
+        android:layout_height="437dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="98dp"
+        tools:ignore="MissingConstraints">
+
+        <TableLayout
+            android:shrinkColumns="0"
+            android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
