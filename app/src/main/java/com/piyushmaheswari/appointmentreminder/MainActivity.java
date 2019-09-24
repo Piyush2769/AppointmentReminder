@@ -10,6 +10,9 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout relativeLayout;
     private LinearLayout linearLayout;
 
+    private RelativeLayout relativeLayout6;
+    private LinearLayout linearLayout2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
