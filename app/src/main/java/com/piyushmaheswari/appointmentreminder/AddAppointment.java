@@ -11,6 +11,10 @@ public class AddAppointment extends AppCompatActivity {
     TextView ff;
     ImageView kk;
 
+
+    TextView ffs;
+    ImageView ksk;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
